@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+	</head>
+	<body>
+	<canvas id="canvas"></canvas>
+	<script>
+	var w = window.innerWidth-20;
+  	var h = window.innerHeight-75;
+	var canvas = document.getElementById("canvas");
+  	canvas.width  = w;
+  	canvas.height = h;
+	navigator.cascades.onmessage = function onmessage(message) {
+	    var value1 = message.substring(0,message.indexOf(";"));
+	    var aux = message.substring(message.indexOf(";")+1,message.length);
+	    var value2 = aux.substring(0,aux.indexOf(";"));
+	    var aux2 = aux.substring(aux.indexOf(";")+1,aux.length);
+	    var value3 = aux2.substring(0,aux2.length);
+	    var pieData = [
+					{
+						value : parseInt(value1),
+						color : "#F38630"
+					},
+					{
+						value : parseInt(value2),
+						color : "#E0E4CC"
+					},
+					{
+						value : parseInt(value3),
+						color : "#69D2E7"
+					}
+				];
+	    var myPie = new Chart(document.getElementById("canvas").getContext("2d")).Pie(pieData);
+    };
+	</script>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+<script type="text/javascript" src="lib/prototype-1.6.0.2.js"></script>
+<script type="text/javascript" src="flotr-0.2.0-alpha.js"></script>
+</head>
+<body>
+	<div id="container"></div>
+	<script type="text/javascript">
+				var w = window.innerWidth;
+  				var h = window.innerHeight-150;
+  				var container = document.getElementById('container');
+  				container.style.height = h+'px';
+  				container.style.widht = w+'px';
+  				navigator.cascades.onmessage = function onmessage(message) {
+  					var max = parseInt(message);
+	  				var d1 = [];
+				    for(var i = 0; i < max; i += 0.5)
+				        d1.push([i, Math.sin(i)]);
+				    
+					/**
+					 * Draw the graph.
+					 */
+				    var f = Flotr.draw($('container'), [ d1 ]);	
+  				};
+		</script>
+</body>
+</html>
