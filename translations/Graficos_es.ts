@@ -17,7 +17,7 @@
         <location filename="../assets/About.qml" line="22"/>
         <source>labelAbout</source>
         <translation type="unfinished">El propósito de esta demo es mostrar como utilizar e interactuar con librerias javascript para realizar gráficos en un webview con datos ingresados en una pantalla qml.
-BonsaiJS (http://bonsaijs.org/), ChartJS (http://www.chartjs.org/), Flotr (http://solutoire.com/flotr/) y RaphaelJS (http://raphaeljs.com/) tienen licencia MIT (http://opensource.org/licenses/MIT), D3js (http://d3js.org/) tiene licencia BSD (http://opensource.org/licenses/BSD-3-Clause).</translation>
+BonsaiJS (http://bonsaijs.org/), ChartJS (http://www.chartjs.org/), Flotr (http://solutoire.com/flotr/) y RaphaelJS (http://raphaeljs.com/) tienen licencia MIT (http://opensource.org/licenses/MIT), D3js (http://d3js.org/) tiene licencia BSD (http://opensource.org/licenses/BSD-3-Clause), RGraph (http://www.rgraph.net/) tiene licencia Creative Commons Attribution (http://creativecommons.org/licenses/by/3.0/).</translation>
     </message>
 </context>
 <context>
@@ -125,6 +125,49 @@ BonsaiJS (http://bonsaijs.org/), ChartJS (http://www.chartjs.org/), Flotr (http:
         <location filename="../assets/Flotr.qml" line="42"/>
         <source>chart</source>
         <translation type="unfinished">Generar Gráfico</translation>
+    </message>
+</context>
+<context>
+    <name>RGraph</name>
+    <message>
+        <location filename="../assets/RGraph.qml" line="18"/>
+        <source>share</source>
+        <translation type="unfinished">Compartir</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="25"/>
+        <source>shareRGraph</source>
+        <translation type="unfinished">Estoy probando RGraph en BlackBerry Cascades revisa: http://www.rgraph.net/</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="38"/>
+        <source>value1</source>
+        <translation type="unfinished">Valor 1</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="43"/>
+        <source>value2</source>
+        <translation type="unfinished">Valor 2</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="48"/>
+        <source>value3</source>
+        <translation type="unfinished">Valor 3</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="52"/>
+        <source>chartPie</source>
+        <translation type="unfinished">Generar Gráfico de Tortas</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="63"/>
+        <source>chartLines</source>
+        <translation type="unfinished">Generar Gráfico de Líneas</translation>
+    </message>
+    <message>
+        <location filename="../assets/RGraph.qml" line="74"/>
+        <source>chartBars</source>
+        <translation type="unfinished">Generar Gráfico de Barras</translation>
     </message>
 </context>
 <context>

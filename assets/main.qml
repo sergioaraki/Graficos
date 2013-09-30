@@ -39,6 +39,12 @@ TabbedPane {
             
         }
     }
+    Tab {
+        title: "RGraph"
+        RGraph {
+        
+        }
+    }
     attachedObjects: [
         Sheet {
             id: aboutSheet

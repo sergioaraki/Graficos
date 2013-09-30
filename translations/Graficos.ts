@@ -14,7 +14,7 @@
     <message>
         <source>labelAbout</source>
         <translation type="unfinished">The purpose of this demo is to show how to use and interact with javascript libraries for graphics on a webview with data entered on a qml screen.
-BonsaiJS (http://bonsaijs.org/), ChartJS (http://www.chartjs.org/), Flotr (http://solutoire.com/flotr/) and RaphaelJS (http://raphaeljs.com/) have MIT license (http://opensource.org/licenses/MIT), D3js (http://d3js.org/) has BSD license (http://opensource.org/licenses/BSD-3-Clause).</translation>
+BonsaiJS (http://bonsaijs.org/), ChartJS (http://www.chartjs.org/), Flotr (http://solutoire.com/flotr/) and RaphaelJS (http://raphaeljs.com/) have MIT license (http://opensource.org/licenses/MIT), D3js (http://d3js.org/) has BSD license (http://opensource.org/licenses/BSD-3-Clause), RGraph (http://www.rgraph.net/) has Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</translation>
     </message>
 </context>
 <context>
@@ -103,6 +103,41 @@ BonsaiJS (http://bonsaijs.org/), ChartJS (http://www.chartjs.org/), Flotr (http:
     <message>
         <source>shareFlotr</source>
         <translation type="unfinished">I´m trying Flotr in BlackBerry Cascades check: http://solutoire.com/flotr/</translation>
+    </message>
+</context>
+<context>
+    <name>RGraph</name>
+    <message>
+        <source>share</source>
+        <translation type="unfinished">Share</translation>
+    </message>
+    <message>
+        <source>shareRGraph</source>
+        <translation type="unfinished">I´m trying RGraph in BlackBerry Cascades check: http://www.rgraph.net/</translation>
+    </message>
+    <message>
+        <source>value1</source>
+        <translation type="unfinished">Value 1</translation>
+    </message>
+    <message>
+        <source>value2</source>
+        <translation type="unfinished">Value 2</translation>
+    </message>
+    <message>
+        <source>value3</source>
+        <translation type="unfinished">Value 3</translation>
+    </message>
+    <message>
+        <source>chartLines</source>
+        <translation type="unfinished">Generate Line Chart</translation>
+    </message>
+    <message>
+        <source>chartPie</source>
+        <translation type="unfinished">Generate Pie Chart</translation>
+    </message>
+    <message>
+        <source>chartBars</source>
+        <translation type="unfinished">Generate Bar Chart</translation>
     </message>
 </context>
 <context>
